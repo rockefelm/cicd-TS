@@ -30,5 +30,6 @@ jobs:
     steps:
       - name: Style checks
         run: npm run format:check
+        working-directory: ${{ github.workspace }}
 
 
